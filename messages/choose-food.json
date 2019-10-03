@@ -1,0 +1,44 @@
+{
+	"text":"General Sanders is on his way!",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "General Sanders is going to work today and there are <https://kfc.pl/main/home/coupons|*Powerful Coupons*> available!\nPick one!"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "2x iTwist :itwist::itwist:",
+						"emoji": true
+					},
+					"value": "iTwist"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "2x Longer :-1:",
+						"emoji": true
+					},
+					"value": "longer"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "2x Cheeseburger :shit:",
+						"emoji": true
+					},
+					"value": "cheeseburger"
+				}
+			]
+		}
+	]
+}
